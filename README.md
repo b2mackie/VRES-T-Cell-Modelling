@@ -1,7 +1,7 @@
 # VRES-T-Cell-Modelling
 Brief description: Agent based modelling of T cells in new cancer treatment where T cells are activated outside the body using IL-2 secreting micro-rods. Code written in PhysiCell, C++.
 
-To run the system save VRES under "sample_projects" in PhysiCell. Use "make-VRES-sample" command in Anaconda or similiar. Follow with command "make". Run executable name "VRES". Output will be in output folder. Can create a gif using "make gif" command. Will be put in output folder as "animation".
+To run the system save VRES under "sample_projects" in PhysiCell. Use "make-reset" command in Anaconda or similiar. Follow with command "make-VRES-fresh". Run executable name "VRES". Output will be in output folder. Can create a gif using "make gif" command. Will be put in output folder as "animation".
 Save "substrate_and_cell_total_plotting.m" under matlab folder in PhysiCell. Run code after running the project in Anaconda or similiar.
 
 # VRES
@@ -36,8 +36,12 @@ Save "substrate_and_cell_total_plotting.m" under matlab folder in PhysiCell. Run
   
   # Makefile
     Makes the project on Anaconda prompt.
+
   # main.cpp
     Main file that runs the code.
 
 # substrate_and_cell_total_plotting.m
   Plots the total amount of T cells, rod cells, substrate and substrate diffusion over time. 
+
+# simularium.py 
+  Creates .simularium file that you can drop into https://simularium.allencell.org/viewer to view 3D animation. 
