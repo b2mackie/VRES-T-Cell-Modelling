@@ -1,4 +1,4 @@
-%% Creating movie of substrates
+%% Getting Data from Output
 
 timetotal =336; % set the total time steps of the data
 
